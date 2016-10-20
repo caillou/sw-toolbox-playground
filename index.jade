@@ -1,2 +1,13 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+h1 Calling:
+
+pre navigator.serviceWorker.register('/sw-1.js');
+
+p
+  | now go to 
+  a(href="./sw-2.html") page with updated Service Worker
+
+script(type="application/javascript", src="/cached-file.js")
+script.
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/sw-1.js');
+  }

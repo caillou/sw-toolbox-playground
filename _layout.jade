@@ -4,9 +4,3 @@ html
     link(rel="stylesheet" href="/main.css")
   body
     != yield
-    
-    script(type="application/javascript", src="/foo.js")
-    script.
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('/sw.js');
-      }

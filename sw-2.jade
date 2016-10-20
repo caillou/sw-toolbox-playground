@@ -1,0 +1,11 @@
+h1 Calling:
+
+pre navigator.serviceWorker.register('/sw-2.js');
+
+p Now look at your inspector. It sais "waiting to activate".
+
+script(type="application/javascript", src="/cached-file.js")
+script.
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/sw-2.js');
+  }
