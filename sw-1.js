@@ -1,4 +1,4 @@
-importScripts('/node_modules/sw-toolbox/sw-toolbox.js');
+importScripts('./node_modules/sw-toolbox/sw-toolbox.js');
 
 version = 1;
 
